@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#134e4a" />
+      <stop offset="100%" stop-color="#042f2e" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <path d="M50 0 V400 M100 0 V400 M150 0 V400 M200 0 V400 M250 0 V400 M300 0 V400 M350 0 V400" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <path d="M0 50 H400 M0 100 H400 M0 150 H400 M0 200 H400 M0 250 H400 M0 300 H400 M0 350 H400" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Glowing Aura -->
+  <circle cx="200" cy="200" r="120" fill="#14b8a6" fill-opacity="0.15" filter="url(#glow)"/>
+
+  <!-- Stylized Geometric Tech Avatar -->
+  <g transform="translate(100, 80)">
+    <!-- Head / Brain Code Container -->
+    <rect x="35" y="30" width="130" height="110" rx="24" fill="#1e293b" stroke="url(#accentGrad)" stroke-width="3"/>
+    
+    <!-- Code Brackets Icon on Head -->
+    <path d="M75 70 L60 85 L75 100" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M125 70 L140 85 L125 100" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M107 65 L93 105" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Terminal Status Lights -->
+    <circle cx="55" cy="48" r="4" fill="#ef4444"/>
+    <circle cx="68" cy="48" r="4" fill="#f59e0b"/>
+    <circle cx="81" cy="48" r="4" fill="#10b981"/>
+
+    <!-- Torso / Shoulders -->
+    <path d="M0 210 C0 165 45 155 100 155 C155 155 200 165 200 210 Z" fill="#1e293b" stroke="url(#accentGrad)" stroke-width="2.5"/>
+    
+    <!-- Tech Badge / ID Card on Chest -->
+    <rect x="65" y="175" width="70" height="35" rx="6" fill="#0f172a" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text x="100" y="196" fill="#2dd4bf" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">BSIT / DEV</text>
+  </g>
+
+  <!-- Tag Pills -->
+  <g transform="translate(20, 340)">
+    <rect x="25" y="0" width="150" height="32" rx="16" fill="#0f172a" stroke="#2dd4bf" stroke-width="1.5" stroke-opacity="0.7"/>
+    <text x="100" y="21" fill="#2dd4bf" font-family="'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Mark Laurence Santos</text>
+    
+    <rect x="195" y="0" width="140" height="32" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.7"/>
+    <text x="265" y="21" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Full-Stack Dev</text>
+  </g>
+</svg>
