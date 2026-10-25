@@ -1,0 +1,66 @@
+export const copy = {
+  en: {
+    nav: ['Home', 'About', 'Projects', 'Journey', 'Guestbook', 'Contact'],
+    available: 'Open to work', based: 'Based in Angeles City, PH', today: 'Today', scroll: 'Scroll to explore',
+    drag: 'A little personality. Drag the badges.', about: 'About me', hello: 'Hi, I’m Mark Laurence M. Santos.',
+    bio: 'A web developer and fourth-year BSIT student at Angeles University Foundation. I work across React interfaces, PHP applications, and relational databases to turn practical requirements into working systems.',
+    bio2: 'My capstone, Autotrace, connects license plate recognition with vehicle records and an operator dashboard. I’m also building an AI chatbot and exploring how thoughtful interfaces make complex tools easier to use.',
+    resume: 'View résumé', hire: 'Let’s work together', student: 'Fourth-year BSIT student', education: 'Education', degree: 'Information Technology', coursework: 'Relevant coursework',
+    stack: 'Tech stack', search: 'Find a technology', noSkills: 'No matching technologies.', focus: 'My focus',
+    focusText: 'Connecting the interface, application logic, and database. I enjoy the point where separate parts become a useful, understandable system.',
+    training: 'Additional training', selected: 'Selected', works: 'works', projectIntro: 'The projects I’m building, the problems behind them, and the decisions that connect it all.',
+    caseStudy: 'Read case study', repository: 'View repository', preview: 'Explore the system', developing: 'In development',
+    journey: 'My journey', journeyIntro: 'From university coursework to connected applications. A work in progress, in the best sense.', archive: 'Project archive', openFolder: 'Open folder',
+    lets: 'Let’s start', project: 'a project', contactIntro: 'Have a role, a project, or an interesting problem? I’m open to internships, junior developer roles, and collaborations.',
+    email: 'Direct email', social: 'Find me online', name: 'Your name', yourEmail: 'Your email', subject: 'Subject', message: 'Message', send: 'Create email draft', emailNote: 'Your email app opens with a draft. Send it there to get in touch.',
+    subjects: ['Project collaboration', 'Internship opportunity', 'Junior developer role', 'General inquiry'], messagePlaceholder: 'A little about your team, project, or idea…',
+    guestbook: 'Guestbook', guestIntro: 'Leave a little note before you go.', localNote: 'This guestbook saves notes in this browser only. Notes are not published or sent to Mark.', emptyBook: 'Be the first to leave a note on this device.', note: 'Your note', post: 'Save note on this device', saved: 'Note saved on this device.', storageError: 'This browser could not save the note. Your text is still here.', copied: 'Email address copied.', back: 'Back to top', rights: 'All rights reserved.', remote: 'Open to remote opportunities', archiveIntro: 'A closer look at the work behind the milestone.', close: 'Close',
+    problem: 'The problem', solution: 'The approach', features: 'Key features', challenge: 'Engineering challenge', status: 'Project status', skillHint: 'Select a technology to see how I use it.', greetings: ['Hey there!', 'Let’s build.', 'Still curious?'],
+  },
+  fil: {
+    nav: ['Simula', 'Tungkol', 'Mga proyekto', 'Paglalakbay', 'Guestbook', 'Kontak'],
+    available: 'Bukas sa trabaho', based: 'Nasa Angeles City, PH', today: 'Ngayon', scroll: 'Mag-scroll para makita',
+    drag: 'Kaunting personalidad. I-drag ang mga badge.', about: 'Tungkol sa akin', hello: 'Kumusta, ako si Mark Laurence M. Santos.',
+    bio: 'Isa akong web developer at fourth-year BSIT student sa Angeles University Foundation. Gumagawa ako ng React interfaces, PHP applications, at relational databases para gawing gumaganang sistema ang mga praktikal na pangangailangan.',
+    bio2: 'Ang capstone kong Autotrace ay nag-uugnay ng license plate recognition, vehicle records, at operator dashboard. Gumagawa rin ako ng AI chatbot at pinag-aaralan kung paano gawing mas madaling gamitin ang mga komplikadong tool.',
+    resume: 'Tingnan ang résumé', hire: 'Magtulungan tayo', student: 'Fourth-year BSIT student', education: 'Edukasyon', degree: 'Information Technology', coursework: 'Mga kaugnay na asignatura',
+    stack: 'Mga teknolohiya', search: 'Maghanap ng teknolohiya', noSkills: 'Walang katugmang teknolohiya.', focus: 'Aking pokus',
+    focusText: 'Pag-uugnay ng interface, application logic, at database. Gusto ko ang bahagi kung saan nagiging kapaki-pakinabang at malinaw na sistema ang magkakahiwalay na piyesa.',
+    training: 'Karagdagang pagsasanay', selected: 'Mga piling', works: 'proyekto', projectIntro: 'Ang mga proyektong ginagawa ko, ang mga problemang nilulutas, at ang mga desisyon sa likod ng bawat sistema.',
+    caseStudy: 'Basahin ang case study', repository: 'Tingnan ang repository', preview: 'Tuklasin ang sistema', developing: 'Ginagawa pa',
+    journey: 'Aking paglalakbay', journeyIntro: 'Mula sa mga asignatura sa unibersidad hanggang sa magkakaugnay na application. Patuloy na natututo at gumagawa.', archive: 'Mga dokumento', openFolder: 'Buksan ang folder',
+    lets: 'Simulan natin', project: 'ang proyekto', contactIntro: 'May trabaho, proyekto, o problemang nais lutasin? Bukas ako sa internships, junior developer roles, at mga kolaborasyon.',
+    email: 'Direktang email', social: 'Hanapin ako online', name: 'Iyong pangalan', yourEmail: 'Iyong email', subject: 'Paksa', message: 'Mensahe', send: 'Gumawa ng email draft', emailNote: 'Magbubukas ang iyong email app na may draft. Ipadala ito roon para makipag-ugnayan.',
+    subjects: ['Kolaborasyon sa proyekto', 'Internship opportunity', 'Junior developer role', 'Pangkalahatang tanong'], messagePlaceholder: 'Ikuwento ang iyong team, proyekto, o ideya…',
+    guestbook: 'Guestbook', guestIntro: 'Mag-iwan ng maikling mensahe bago umalis.', localNote: 'Sa browser na ito lamang nase-save ang mga tala. Hindi ito inilalathala o ipinapadala kay Mark.', emptyBook: 'Maunang mag-iwan ng tala sa device na ito.', note: 'Iyong tala', post: 'I-save ang tala sa device na ito', saved: 'Na-save ang tala sa device na ito.', storageError: 'Hindi na-save ng browser ang tala. Nandito pa rin ang iyong isinulat.', copied: 'Nakopya ang email address.', back: 'Bumalik sa itaas', rights: 'Lahat ng karapatan ay nakalaan.', remote: 'Bukas sa remote opportunities', archiveIntro: 'Mas malapit na tingin sa gawain sa likod ng bawat yugto.', close: 'Isara',
+    problem: 'Ang problema', solution: 'Ang pamamaraan', features: 'Mga pangunahing tampok', challenge: 'Hamon sa pagbuo', status: 'Kalagayan ng proyekto', skillHint: 'Pumili ng teknolohiya para makita ang gamit nito.', greetings: ['Kumusta!', 'Gumawa tayo.', 'May tanong ka?'],
+  },
+};
+
+export const projects = [
+  {
+    id: 'autotrace', title: 'Autotrace', subtitle: { en: 'Automated license plate recognition', fil: 'Awtomatikong pagkilala sa license plate' }, category: 'CAPSTONE / FULL-STACK SYSTEM',
+    description: { en: 'A connected vehicle-access workflow: camera input becomes plate text, plate text becomes a database match, and the operator gets a searchable record.', fil: 'Isang magkakaugnay na daloy: mula sa camera input, kinikilala ang plate text, hinahanap sa database, at ipinapakita sa operator ang rekord.' },
+    problem: { en: 'Manual vehicle logs are slow to record and difficult to search. Operators need a clearer way to connect arriving vehicles with registration information and entry history.', fil: 'Mabagal isulat at mahirap hanapin ang mga manu-manong vehicle log. Kailangan ng operator ng mas malinaw na paraan para maikonekta ang sasakyan sa registration at entry history.' },
+    solution: { en: 'Connect Python/OCR processing with PHP endpoints, a relational SQL database, and a React operator interface. Keep the recognition, verification, and access log in one workflow.', fil: 'Pag-ugnayin ang Python/OCR processing, PHP endpoints, relational SQL database, at React operator interface. Pagsamahin ang pagkilala, pag-verify, at pag-log sa isang daloy.' },
+    challenge: { en: 'Motion blur, skewed camera angles, and changing light affect recognition. The interface also needs to make uncertain results understandable to the operator.', fil: 'Nakaaapekto sa pagkilala ang motion blur, anggulo ng camera, at pagbabago ng ilaw. Kailangang malinaw din sa operator ang mga resultang hindi tiyak.' },
+    features: { en: ['Camera frame and OCR integration', 'Vehicle record verification', 'Timestamped entry and exit records', 'Searchable operator dashboard'], fil: ['Camera frame at OCR integration', 'Pag-verify ng vehicle records', 'May oras na entry at exit records', 'Operator dashboard na may paghahanap'] },
+    stack: ['React', 'PHP', 'Python / OCR', 'MySQL', 'REST APIs'], github: 'https://github.com/marklaurence-santos/autotrace-alpr-system',
+    facts: [['OCR', 'RECOGNITION'], ['Full-stack', 'DEVELOPMENT'], ['Capstone', 'ACADEMIC PROJECT']],
+  },
+  {
+    id: 'chatbot', title: 'AI web chatbot', subtitle: { en: 'An interface for better conversations', fil: 'Interface para sa mas maayos na usapan' }, category: 'WEB APPLICATION / IN DEVELOPMENT',
+    description: { en: 'A conversational web interface exploring message state, prompt handling, and API integration. Currently in development, with a focus on clear feedback and responsive interactions.', fil: 'Isang conversational web interface na gumagamit ng message state, prompt handling, at API integration. Ginagawa pa, na may pokus sa malinaw na feedback at responsive na mga interaction.' },
+    problem: { en: 'A conversation interface needs to keep messages, waiting states, and errors understandable as a visitor moves between questions.', fil: 'Kailangang malinaw ang mga mensahe, waiting state, at error habang nagtatanong ang bisita sa isang conversation interface.' },
+    solution: { en: 'Develop reusable React message components, manage conversation state, and connect the interface to an API. This project is still being developed; no public live demo is available yet.', fil: 'Bumuo ng reusable React message components, pamahalaan ang conversation state, at ikonekta sa API. Ginagawa pa ang proyekto at wala pang pampublikong live demo.' },
+    challenge: { en: 'Keep the conversation readable on small screens while making loading, retry, and response states easy to understand.', fil: 'Panatilihing madaling basahin ang usapan sa maliit na screen at malinaw ang loading, retry, at response states.' },
+    features: { en: ['Responsive conversation layout', 'Message history and state handling', 'API request and response integration', 'Loading and error feedback'], fil: ['Responsive na conversation layout', 'Message history at state handling', 'API request at response integration', 'Loading at error feedback'] },
+    stack: ['React', 'JavaScript', 'REST APIs', 'UI development'], facts: [['React', 'INTERFACE'], ['API', 'INTEGRATION'], ['Ongoing', 'STATUS']],
+  },
+];
+
+export const journey = [
+  { period: 'CAPSTONE', category: { en: 'System development', fil: 'Pagbuo ng sistema' }, title: { en: 'Lead developer · Autotrace', fil: 'Lead developer · Autotrace' }, organization: 'ANGELES UNIVERSITY FOUNDATION', description: { en: 'Bringing OCR processing, database verification, and the operator interface together in a senior capstone project.', fil: 'Pinagsasama ang OCR processing, database verification, at operator interface sa isang senior capstone project.' }, tags: ['System architecture', 'Computer vision', 'Full-stack'], project: 'autotrace' },
+  { period: 'ONGOING', category: { en: 'Personal & academic development', fil: 'Personal at akademikong pag-unlad' }, title: { en: 'Building an AI web chatbot', fil: 'Pagbuo ng AI web chatbot' }, organization: 'INDEPENDENT PROJECT', description: { en: 'Exploring conversational interfaces, message state, and API integration with React and JavaScript.', fil: 'Pinag-aaralan ang conversational interfaces, message state, at API integration gamit ang React at JavaScript.' }, tags: ['React', 'API integration', 'Interface design'], project: 'chatbot' },
+  { period: '2023—NOW', category: { en: 'Education', fil: 'Edukasyon' }, title: { en: 'BS Information Technology', fil: 'BS Information Technology' }, organization: 'ANGELES UNIVERSITY FOUNDATION', description: { en: 'Building a foundation in software engineering, database systems, object-oriented programming, and systems analysis. Currently in fourth year.', fil: 'Nag-aaral ng software engineering, database systems, object-oriented programming, at systems analysis. Kasalukuyang nasa ikaapat na taon.' }, tags: ['Software engineering', 'Databases', 'Systems analysis'], project: 'education' },
+];
